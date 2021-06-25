@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{cc46086f-7d7b-4ca3-8e99-0934a6750c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{e076cc9c-9236-45d8-8121-045614ad0936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{0d1c88eb-2edc-4381-b95a-d05b0a1ea2ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="shader\pbr_shader.cpp">
+      <Filter>shader</Filter>
+    </ClCompile>
+    <ClCompile Include="shader\phong_shader.cpp">
+      <Filter>shader</Filter>
+    </ClCompile>
+    <ClCompile Include="shader\skybox_shader.cpp">
+      <Filter>shader</Filter>
+    </ClCompile>
+    <ClCompile Include="platform\win32.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="core\camera.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\maths.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\model.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\pipeline.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\sample.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\scene.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\tgaimage.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader\shader.h">
+      <Filter>shader</Filter>
+    </ClInclude>
+    <ClInclude Include="platform\win32.h">
+      <Filter>platform</Filter>
+    </ClInclude>
+    <ClInclude Include="core\camera.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\macro.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\maths.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\model.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\pipeline.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sample.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\scene.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\spainlock.hpp">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\tgaimage.h">
+      <Filter>core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
